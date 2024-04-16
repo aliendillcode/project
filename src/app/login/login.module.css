@@ -1,0 +1,43 @@
+.container {
+  margin-top: 30px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input_group_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.container form {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 20px;
+  text-align: right;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+.divider {
+  display: flex;
+  gap: 10px;
+  color: var(--text-color);
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.divider_line {
+  height: 2px;
+  width: 100%;
+  background-color: var(--text-color);
+}

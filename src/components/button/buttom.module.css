@@ -1,0 +1,23 @@
+.button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+.purple {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.purple_border {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
